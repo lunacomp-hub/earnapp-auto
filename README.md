@@ -15,3 +15,8 @@ Jalan otomatis setelah boot
 ```
 systemctl restart restart-earnapp.service
 ```
+
+# Docker Earnapp
+```
+wget 
+earnapp-install.sh
