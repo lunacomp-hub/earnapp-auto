@@ -18,5 +18,9 @@ systemctl restart restart-earnapp.service
 
 # Docker Earnapp
 ```
-wget 
-earnapp-install.sh
+cd /root || exit
+
+curl -fsSL https://raw.githubusercontent.com/lunacomp-hub/earnapp-auto/refs/heads/main/auto-install-earnapp.sh -o auto-install-earnapp.sh && \
+chmod +x auto-install-earnapp.sh && \
+./auto-install-earnapp.sh && \
+rm -f auto-install-earnapp.sh
