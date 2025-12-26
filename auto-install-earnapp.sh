@@ -3,6 +3,7 @@
 set -e
 
 echo "===== UPDATE & UPGRADE SYSTEM ====="
+dpkg --configure -a
 apt update && apt upgrade -y
 
 echo "===== INSTALL DEPENDENCY INITRAMFS & ARMBIAN BSP ====="
