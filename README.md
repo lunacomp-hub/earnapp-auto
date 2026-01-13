@@ -26,4 +26,7 @@ chmod +x auto-install-earnapp.sh &&
 rm -f auto-install-earnapp.sh
 ```
 # Disable Docker
+chmod +x disable-docker.sh
+./disable-docker.sh
+
 ```
