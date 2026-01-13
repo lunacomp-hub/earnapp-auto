@@ -26,7 +26,7 @@ chmod +x auto-install-earnapp.sh &&
 rm -f auto-install-earnapp.sh
 ```
 # Disable Docker
+```
+wget https://raw.githubusercontent.com/lunacomp-hub/earnapp-auto/refs/heads/main/disable-docker.sh -O disable-docker.sh
 chmod +x disable-docker.sh
 ./disable-docker.sh
-
-```
