@@ -24,6 +24,6 @@ curl -fsSL https://raw.githubusercontent.com/lunacomp-hub/earnapp-auto/refs/head
 chmod +x auto-install-earnapp.sh &&
 ./auto-install-earnapp.sh &&
 rm -f auto-install-earnapp.sh
-
+```
 # Disable Docker
 ```
