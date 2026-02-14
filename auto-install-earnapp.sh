@@ -36,12 +36,12 @@ echo "===== PULL IMAGE EARNAPP ====="
 docker pull fazalfarhan01/earnapp:lite-1.294.218
 
 echo "===== JALANKAN CONTAINER EARNAPP ====="
-docker run -d -e EARNAPP_UUID="sdk-node-73f6f824555e4a34bcc76472199dc47a" --name earnapp-stb-01 fazalfarhan01/earnapp:lite
-docker run -d -e EARNAPP_UUID="sdk-node-fd18f4b59c2944558ff516764e65bad0" --name earnapp-stb-02 fazalfarhan01/earnapp:lite
-docker run -d -e EARNAPP_UUID="sdk-node-44927e5d03b54f26bc2b7bfde18398f0" --name earnapp-stb-03 fazalfarhan01/earnapp:lite
-docker run -d -e EARNAPP_UUID="sdk-node-02647fe9c65a42a4ad642330d39897dd" --name earnapp-stb-04 fazalfarhan01/earnapp:lite
-docker run -d -e EARNAPP_UUID="sdk-node-87fc40eb770245879362753ac7e7fc8e" --name earnapp-stb-05 fazalfarhan01/earnapp:lite
-docker run -d -e EARNAPP_UUID="sdk-node-f95e8cc4da794851986bb5436d7eda81" --name earnapp fazalfarhan01/earnapp:lite
+docker run -d -e EARNAPP_UUID="sdk-node-e90fbfbce11f4b088f1ea011bb819b00" --name earnapp-stb-01 fazalfarhan01/earnapp:lite
+docker run -d -e EARNAPP_UUID="sdk-node-ff6fefa0e7524fc1b745b4e9aedc3dbd" --name earnapp-stb-02 fazalfarhan01/earnapp:lite
+docker run -d -e EARNAPP_UUID="sdk-node-a10a21255e3a40c097eceba2d19278af" --name earnapp-stb-03 fazalfarhan01/earnapp:lite
+docker run -d -e EARNAPP_UUID="sdk-node-e822350a377949bd911b3c215bbb40b5" --name earnapp-stb-04 fazalfarhan01/earnapp:lite
+docker run -d -e EARNAPP_UUID="sdk-node-52b2be11b8d245e3a444c8b3b92d6194" --name earnapp-stb-05 fazalfarhan01/earnapp:lite
+docker run -d -e EARNAPP_UUID="sdk-node-aadaa47e5f3f452c8dc1ba1bf49571fb" --name earnapp fazalfarhan01/earnapp:lite
 
 echo "===== SET AUTO RESTART CONTAINER ====="
 docker update --restart unless-stopped $(docker ps -aq)
